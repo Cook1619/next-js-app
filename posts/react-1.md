@@ -40,3 +40,15 @@ ReactDom.render(React.createElement("h1", null, "Hello World"), document.getElem
 ```
 ### So it creates the h1 element, the second argument would be for an id or className if it had one
 ### and the third is the text in the element
+
+## Say you want to render a h1 and a paragraph? React can only render one element at a time
+## the solution is wrapping them in a div
+
+```js
+ReactDom.render(
+<div>
+    <h1>Heading</h1>
+    <p>This is a paragraph!!</p>
+</div>    
+, document.getElementById('root'));
+```
