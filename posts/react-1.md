@@ -1,6 +1,6 @@
 ---
 title: "React Basics"
-date: "2020-06-1"
+date: "2020-06-01"
 ---
 
 # So React is known as a single page application along with the other popular frontend
@@ -29,7 +29,7 @@ date: "2020-06-1"
 ## The third is optionally which is a callback to tells us when the render function has completed
 ```js
 import React from 'react';
-imoport ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';
 
 ReactDom.render(<h1>Hello World</h1>, document.getElementById('root'));
 ```
