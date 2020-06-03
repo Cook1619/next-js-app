@@ -3,7 +3,7 @@ title: "Styling in React"
 date: "2020-06-03"
 ---
 
-#Here a few different ways to style in React
+# Here a few different ways to style in React
 
 
 Inline Styles
